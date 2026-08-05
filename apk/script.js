@@ -2647,7 +2647,7 @@ x.addEventListener("click",(e)=>{
   var action=el.dataset.action;
   
   if(action == "url"){
-    Android.oplink('https://github.com/prateek-chaubey/YTPRO/releases');
+    Android.oplink('');
   }else if(action == "download"){
     Android.downvid('app-release.apk','','application/apk');  
   }else if(action =="cancel"){
